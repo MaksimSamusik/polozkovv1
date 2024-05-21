@@ -140,10 +140,9 @@ namespace WindowsFormsApp2
 
         private void button3_Click(object sender, EventArgs e)              //  Строим первоначальный прямоугольник 
         {
-            double A, B, C;
-            A = Convert.ToDouble(textBox6.Text);
-            B = Convert.ToDouble(textBox3.Text);
-            C = Convert.ToDouble(textBox7.Text);
+            double sideLength, height;
+            sideLength = Convert.ToDouble(textBox6.Text);
+            height = Convert.ToDouble(textBox7.Text);
 
 
             SwApp = (SldWorks)Marshal.GetActiveObject("SldWorks.Application");
@@ -151,12 +150,25 @@ namespace WindowsFormsApp2
 
             swModel = SwApp.IActiveDoc2;
 
+            swModel.Extension.SelectByID2("Сверху", "PLANE", 0, 0, 0, false, 0, null, 0);
 
-            swModel.SketchManager.CreateSketchPlane((int)(A / 2), (int)(B / 2), (int)(B / 2));
-            swModel.Extension.SelectByID2("Спереди", "PLANE", A / 2, B / 2, B / 2, false, 0, null, 0);
-            swModel.SketchManager.Insert3DSketch(true);
-            swModel.SketchManager.CreateCornerRectangle(0, 0, 0, A, B, 0);
-            swModel.FeatureManager.FeatureExtrusion2(true, false, true, 0, 0, C, 0.01, false, false, false, false, 1.74532925199433E-02, 1.74532925199433E-02,
+            swModel.SketchManager.InsertSketch(true);
+
+            double triangleHeight = (Math.Sqrt(3) / 2) * sideLength;
+
+            swModel.SketchManager.CreateLine(0, 0, 0, sideLength, 0, 0);
+            swModel.SketchManager.CreateLine(sideLength, 0, 0, sideLength / 2, triangleHeight, 0);
+            swModel.SketchManager.CreateLine(sideLength / 2, triangleHeight, 0, 0, 0, 0);
+
+
+           
+            swModel.SketchManager.InsertSketch(true);
+
+           
+            FeatureManager swFeatureMgr = swModel.FeatureManager;
+
+           
+            swModel.FeatureManager.FeatureExtrusion2(true, false, true, 0, 0, height, 0.01, false, false, false, false, 1.74532925199433E-02, 1.74532925199433E-02,
                 false, false, false, false, true, true, true, 0, 0, true);
         }
 

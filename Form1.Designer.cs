@@ -40,8 +40,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,20 +118,20 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(28, 236);
+            this.textBox6.Location = new System.Drawing.Point(144, 236);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 9;
-            this.textBox6.Text = "160";
+            this.textBox6.Text = "50";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 239);
+            this.label2.Location = new System.Drawing.Point(12, 239);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 13);
+            this.label2.Size = new System.Drawing.Size(124, 13);
             this.label2.TabIndex = 12;
-            this.label2.Text = "A:";
+            this.label2.Text = "Сторона треугольника:";
             // 
             // button5
             // 
@@ -153,21 +153,22 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(28, 263);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 19;
-            this.textBox3.Text = "94";
-            // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(28, 290);
+            this.textBox7.Location = new System.Drawing.Point(144, 266);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 20;
-            this.textBox7.Text = "94";
+            this.textBox7.Text = "100";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 269);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(91, 13);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "Высота призмы:";
             // 
             // Form1
             // 
@@ -175,8 +176,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(807, 469);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label2);
@@ -211,8 +212,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label3;
     }
 }
 
