@@ -34,67 +34,67 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SolidWorks.Interop.dsgnchk">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.dsgnchk.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.dsgnchk.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.fworks">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.fworks.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.fworks.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.gtswutilities">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.gtswutilities.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.gtswutilities.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.sldcostingapi">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sldcostingapi.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sldcostingapi.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.sldtoolboxconfigureaddin">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sldtoolboxconfigureaddin.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sldtoolboxconfigureaddin.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.sldworks">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sldworks.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sldworks.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.sustainability">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sustainability.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sustainability.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.sw3dprinter">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sw3dprinter.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.sw3dprinter.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swbrowser">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swbrowser.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swbrowser.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swcommands">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swcommands.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swcommands.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swconst">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swconst.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swconst.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swdimxpert">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swdimxpert.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swdimxpert.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swdocumentmgr">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swdocumentmgr.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swdocumentmgr.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swmotionstudy">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swmotionstudy.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swmotionstudy.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swpublished">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swpublished.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.swpublished.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.SWRoutingLib">
-      <HintPath>..\..\..\..\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.SWRoutingLib.dll</HintPath>
+      <HintPath>D:\DS.SolidWorks.2022.SP5.0.Premium-SSQ\SOLIDWORKS\api\redist\SolidWorks.Interop.SWRoutingLib.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />

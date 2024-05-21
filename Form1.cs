@@ -15,7 +15,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
-    {
+    {   //hello
         //private double Level = Convert.ToDouble(textBox1.Text);
         //Высота и ширина для отрисовки
         private int _width;
